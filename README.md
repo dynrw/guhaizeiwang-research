@@ -25,6 +25,7 @@
 ## 目录
 - `data/yearly_returns.csv` 年度收益
 - `data/equity_milestones.csv` 资产节点
+- `HANDOFF.md` 接手说明（精确收益率与全量存档）
 - `holdings/` 每个交易日自动整理的确认持仓（定时任务写入）
 
 ## 其他参考
