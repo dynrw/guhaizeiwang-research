@@ -65,17 +65,25 @@
 
 ## 5. 全量存档任务
 
-建议目录结构：
+**存放规则（重要）**：
+- 原图、原文、OCR 原文 → 私有仓库 https://github.com/dynrw/guhaizeiwang-archive （必须保持私有，所有者需给你访问权限）。
+- 本公开仓库只放计算得出的数字和原帖链接，**不提交任何截图、帖子原文或 OCR 全文**。
+
+私有存档仓库结构：
 
 ```
-archive/
-  pages/<N>.json          # 每页里他本人的楼层：floor_no, reply_id, url, datetime, text, image_urls
-  images/<reply_id>_<k>.jpg
-  ocr/<reply_id>_<k>.json # OCR 原文 + 解析字段
+pages/<N>.json          # 每页里他本人的楼层：floor_no, reply_id, url, datetime, text, image_urls
+images/<reply_id>_<k>.jpg
+ocr/<reply_id>_<k>.json # OCR 原文 + 解析字段
+```
+
+本公开仓库的数据文件（只含数字与 source_url）：
+
+```
 data/
   daily_positions.csv     # date, total_assets, floating_pnl, day_pnl, source_url
   daily_holdings.csv      # date, stock_name, code, shares, market_value, floating_pnl, weight, source_url
-  cash_flows.csv          # date, amount(+入/-出), quote, source_url
+  cash_flows.csv          # date, amount(+入/-出), source_url   （不抄原文引语）
   yearly_returns.csv      # 已有，补精确值并标注 method
 ```
 
@@ -88,7 +96,8 @@ data/
 原则：
 - 不编造数字；OCR 读不清的字段留空并注明。
 - 每条数据都带 source_url（楼层链接）。
-- 大文件（图片）量大，必要时用 Git LFS，或只存 OCR 结果 + 原图链接。
+- 图片量大，私有存档仓库里用 Git LFS。
+- 公开仓库 README 已注明：仅供个人研究，不构成投资建议，内容版权归原作者。
 
 ## 6. 已在运行的自动化
 
@@ -96,4 +105,5 @@ data/
 
 ## 7. 仓库
 
-- https://github.com/dynrw/guhaizeiwang-research （公开）
+- 公开（数字 + 链接）：https://github.com/dynrw/guhaizeiwang-research
+- 私有（原图 + 原文 + OCR）：https://github.com/dynrw/guhaizeiwang-archive
