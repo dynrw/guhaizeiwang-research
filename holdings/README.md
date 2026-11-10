@@ -1,6 +1,6 @@
 # 每日确认持仓
 
-由定时任务在每个交易日收盘后写入，文件名为日期。
+由 GLM 在每个交易日收盘后按 `DAILY_RUN.md` 写入，文件名为日期。
 
 ## 用交割单还原打码个股（reconstructed_positions.csv）
 
