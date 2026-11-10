@@ -1,11 +1,12 @@
-year,return_pct,method,year_end_total_assets_cny,source
-2016,-18,estimated_from_assets,242659,thread page 7
-2017,-31.6,estimated_from_assets,166021,thread page 14
-2018,70,own_words_approx,277560,thread page 21
-2019,61.6,estimated_from_assets,448670,thread page 33
-2020,98,own_words_approx,889462,thread page 43
-2021,388.97,tonghuashun_screenshot,,thread page 57; https://www.tgb.cn/a/1L9HIP0FgOB
-2022,85.32,tonghuashun_screenshot,6744111.40,thread page 121 floor 6038
-2023,43.60,tonghuashun_screenshot,8897230.18,thread page 218
-2024,25.60,tonghuashun_screenshot,8468004.44,thread page 587
-2025,151.69,tonghuashun_screenshot,,thread page 1190
+year,return_pct,md_rebuilt_pct,method,year_end_total_assets_cny,net_flows_cny,prev_estimate_pct,source
+2016,-3.0,9.0,"assets_x_screenshot + cash_flows(边界法,初步)",242659.23,-81500,-18.0,期初334115.89(2016-02-21持仓页 21127151_1); 期末242659.23(24232491_1); 流量见cash_flows.csv
+2017,-2.7,-2.0,"assets_x_screenshot + cash_flows(边界法,初步)",166020.78,-70000,-31.6,期末166020.78(28286448_1 再见2017)
+2018,56.3,57.4,"assets_x_screenshot + cash_flows(边界法,初步)",277560.02,18000,70.0,"期末277560.02(33366835_1); 本人原话'大概70%'与重建值有差异,待每日净值法复核"
+2019,38.2,38.3,"assets_x_screenshot + cash_flows(边界法,初步)",448670.37,65000,61.6,期末448670.37(39668144_1)
+2020,104.9,106.1,"assets_x_screenshot + cash_flows(边界法,初步)",889462.02,-30000,98.0,期末889462.02(46988037_1); 本人原话'只有翻倍左右'与此吻合
+2021,388.97,385.6,tonghuashun_screenshot,3916292.02,-210000,388.97,年度388.97%(同花顺截图53870036_1); 月度重建+385.6%(MD)吻合; 年末资产3916292.02(53868156_1); 全年转出21万
+2022,85.32,85.3,tonghuashun_screenshot,6744111.4,-450000,85.32,年度85.32%(63694521_1); 月度重建+85.3%完全吻合; 年末资产6744111.40(63693803_1); 全年5笔转出45万
+2023,43.6,44.8,tonghuashun_screenshot,8897230.18,-560000,43.6,年度43.60%+盈亏2717697.40(72611076_2); 年末资产8897230.18(72611076_1); 全年转出56万
+2024,25.6,24.5,tonghuashun_screenshot,8468004.44,-3000000,25.6,年度25.60%+盈亏2941984.72(82591909_2); 年末资产8468004.44(82591909_1); 出金337万
+2025,151.69,151.7,tonghuashun_screenshot,21311689.28,0,151.69,年度151.69%(94160600_1); 年末资产21311689.28(94140220_1); 边界法+151.68%吻合(2025无出入金)
+2026,,98.6,md_monthly_partial,,-400000,,YTD至11-09月度MD; 月度序列见monthly_assets.csv
