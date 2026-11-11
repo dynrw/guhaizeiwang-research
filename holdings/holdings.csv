@@ -1,3 +1,10 @@
 date,stock_name,code,shares,market_value,floating_pnl,weight,status,source_url
 2026-11-10,新标准券,,147370,14737000.00,0.00,34.70,confirmed,https://www.tgb.cn/a/1ykAFNDujlw/104723019#104723019
 2026-11-10,敏芯股份,,0,0.00,24534.69,0.00,cleared,https://www.tgb.cn/a/1ykAFNDujlw/104723019#104723019
+2026-11-11,新标准券,,70410,7041000.00,0.00,16.16,confirmed,https://www.tgb.cn/a/1ykAFNDujlw/104770998#104770998
+2026-11-11,华是科技,301218,70800,6723876.00,,15.43,reconstructed,https://www.tgb.cn/a/1ykAFNDujlw/104770998#104770998
+2026-11-11,九阳股份,002242,176700,4698453.00,,10.78,reconstructed,https://www.tgb.cn/a/1ykAFNDujlw/104770998#104770998
+2026-11-11,芒果超媒,300413,67500,2469825.00,,5.67,reconstructed,https://www.tgb.cn/a/1ykAFNDujlw/104770998#104770998
+2026-11-11,志特新材,300986,201000,2192910.00,,5.03,reconstructed,https://www.tgb.cn/a/1ykAFNDujlw/104770998#104770998
+2026-11-11,君正股份,300223,17300,1989154.00,18078.50,4.57,reconstructed,https://www.tgb.cn/a/1ykAFNDujlw/104770998#104770998
+2026-11-11,掌趣科技,,0,0.00,2629.44,0.00,cleared,https://www.tgb.cn/a/1ykAFNDujlw/104770998#104770998
